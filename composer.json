@@ -1,5 +1,6 @@
 {
   "name": "miaoxing/captcha",
+  "type": "miaoxing-plugin",
   "description": "Miaoxing Captcha Plugin",
   "keywords": [
     "miaoxing", "captcha"
