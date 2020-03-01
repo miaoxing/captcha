@@ -4,7 +4,7 @@ namespace Miaoxing\Captcha\Controller;
 
 use Miaoxing\Plugin\BaseController;
 
-class Captcha extends BaseController
+class CaptchaController extends BaseController
 {
     protected $controllerAuth = false;
 
