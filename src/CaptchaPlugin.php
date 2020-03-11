@@ -4,7 +4,7 @@ namespace Miaoxing\Captcha;
 
 use Miaoxing\Plugin\BasePlugin;
 
-class Plugin extends BasePlugin
+class CaptchaPlugin extends BasePlugin
 {
     /**
      * {@inheritdoc}
