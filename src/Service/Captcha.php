@@ -65,7 +65,7 @@ class Captcha extends BaseService
         parent::__construct($options);
 
         if (!$this->fontFile) {
-            $this->fontFile = __DIR__ . '/../../resources/fonts/SpicyRice.ttf';
+            $this->fontFile = __DIR__ . '/../../fonts/SpicyRice.ttf';
         }
     }
 
