@@ -10,7 +10,7 @@ class CaptchaController extends BaseController
 
     public function indexAction()
     {
-        $this->response->setHeader('Content-type', 'image/png');
+        $this->res->setHeader('Content-type', 'image/png');
 
         return wei()->captcha->render();
     }
