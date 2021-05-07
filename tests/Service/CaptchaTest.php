@@ -18,7 +18,7 @@ class CaptchaTest extends BaseTestCase
         $size = getimagesizefromstring($image);
 
         $this->step('验证码不为空');
-        $this->assertNotEmpty(wei()->captcha->getCode());
+        $this->assertNotEmpty(wei()->captcha->getCode(), '验证码不为空');
 
         $this->step('返回正确的图片信息');
         $this->assertEquals(wei()->captcha->getOption('width'), $size[0]);
@@ -34,7 +34,7 @@ class CaptchaTest extends BaseTestCase
         $this->step('输入空验证码有错误提示');
         wei()->captcha->render();
         $ret = wei()->captcha->check('');
-        $this->assertRetErr($ret, -1, '请输入验证码');
+        $this->assertRetErr($ret, '请输入验证码', -1);
 
         $this->step('输入空值后,验证码不会被清空');
         $this->assertNotEmpty(wei()->captcha->getCode());
@@ -42,7 +42,7 @@ class CaptchaTest extends BaseTestCase
         $this->step('输入错误验证码有错误提示');
         wei()->captcha->render();
         $ret = wei()->captcha->check('err');
-        $this->assertRetErr($ret, -2, '验证码不正确');
+        $this->assertRetErr($ret, '验证码不正确', -2);
 
         $this->step('输入错误后,验证码会被清空');
         $this->assertEmpty(wei()->captcha->getCode());
