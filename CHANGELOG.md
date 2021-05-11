@@ -1,3 +1,20 @@
+## [0.1.22](https://github.com/miaoxing/captcha/compare/v0.1.21...v0.1.22) (2021-05-11)
+
+
+### Bug Fixes
+
+* **captcha:** 增加 `miaoxing/services` 依赖 ([e42c6c8](https://github.com/miaoxing/captcha/commit/e42c6c804cbc705b91fe0cb1038b714cfcb7ac2c))
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/plugin:** upgrade from `0.4.4` to `0.4.5`
+* **@miaoxing/services:** upgrade from `0.3.9` to `0.3.10`
+* **@miaoxing/dev:** upgrade from `6.4.0` to `7.0.0`
+
 ## [0.1.21](https://github.com/miaoxing/captcha/compare/v0.1.20...v0.1.21) (2021-04-27)
 
 
