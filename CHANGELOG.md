@@ -1,3 +1,19 @@
+## [0.1.34](https://github.com/miaoxing/captcha/compare/v0.1.33...v0.1.34) (2022-07-02)
+
+
+### Bug Fixes
+
+* 解决 composer 2.2+ 默认不启用插件导致安装路径错误 ([3a0d66f](https://github.com/miaoxing/captcha/commit/3a0d66ff3eaeea1882a3db924acc07f2f4923014))
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/plugin:** upgrade from `0.8.4` to `0.8.5`
+* **@miaoxing/services:** upgrade from `0.5.5` to `0.5.6`
+
 ## [0.1.33](https://github.com/miaoxing/captcha/compare/v0.1.32...v0.1.33) (2022-07-01)
 
 
