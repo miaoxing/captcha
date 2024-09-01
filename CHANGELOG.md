@@ -1,3 +1,20 @@
+## [0.1.62](https://github.com/miaoxing/captcha/compare/v0.1.61...v0.1.62) (2024-09-01)
+
+
+### Features
+
+* 插件增加 wei 命令行入口 ([7af1aea](https://github.com/miaoxing/captcha/commit/7af1aea0b3ee7d3e9b89930c2e719de336d4eb2c))
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/plugin:** upgrade from `0.15.2` to `0.16.0`
+* **@miaoxing/services:** upgrade from `0.9.5` to `0.9.6`
+* **@miaoxing/dev:** upgrade from `9.1.3` to `9.2.0`
+
 ## [0.1.61](https://github.com/miaoxing/captcha/compare/v0.1.60...v0.1.61) (2024-08-03)
 
 
