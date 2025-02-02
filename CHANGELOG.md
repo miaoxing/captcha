@@ -1,3 +1,14 @@
+## [0.1.68](https://github.com/miaoxing/captcha/compare/v0.1.67...v0.1.68) (2025-02-02)
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/plugin:** upgrade from `0.17.3` to `0.17.4`
+* **@miaoxing/services:** upgrade from `0.9.11` to `0.9.12`
+
 ## [0.1.67](https://github.com/miaoxing/captcha/compare/v0.1.66...v0.1.67) (2024-12-31)
 
 
